@@ -11,4 +11,6 @@
 .footer-company{display:flex;align-items:flex-end;gap:12px}.footer-company strong{font:600 11px var(--display);letter-spacing:.02em;color:#e5ebe4}.footer-company>span{font-size:10px;color:#aab0aa} @media(max-width:800px){.footer-company{align-items:flex-start;flex-direction:column;gap:2px}}
 
 
+/* Mobile hero framing: keep Simon centered with his full head in view. */
+@media(max-width:800px){.hero-image{background-size:cover,cover,auto 76%;background-position:center,center,right top;background-color:#202824}}
 
