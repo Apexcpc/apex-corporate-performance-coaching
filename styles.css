@@ -12,5 +12,5 @@
 
 
 /* Mobile hero framing: keep Simon centered with his full head in view. */
-@media(max-width:800px){.hero-image{background-size:cover,cover,auto 76%;background-position:center,center,right top;background-color:#202824}}
+@media(max-width:800px){.hero-image{background-size:cover,cover,auto 64%;background-position:center,center,right top;background-color:#202824}}
 
