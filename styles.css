@@ -14,3 +14,7 @@
 /* Mobile hero framing: keep Simon centered with his full head in view. */
 @media(max-width:800px){.hero-image{background-size:cover,cover,auto 66%;background-position:center,center,70% top;background-color:#202824;filter:brightness(1.48) saturate(.95) contrast(1.02)}}
 
+
+
+/* Search-friendly FAQ section */
+.faq{background:#f8f7f2}.faq>h2{font-size:clamp(36px,4.1vw,58px);margin:48px 0 30px}.faq>h2 em{color:#747b70}.faq-list{border-top:1px solid var(--line)}.faq-list details{border-bottom:1px solid var(--line);padding:20px 0}.faq-list summary{font:700 16px var(--display);cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary:after{content:'+';color:#747b70;font-size:21px;line-height:1}.faq-list details[open] summary:after{content:'−'}.faq-list details p{max-width:760px;margin:14px 40px 0 0;font-size:13px;color:#656a65}
